@@ -270,4 +270,4 @@ async def balance(ctx):
 # =========================
 # 🚀 RUN BOT
 # =========================
-bot.run("TON_TOKEN_ICI")
+bot.run(os.getenv("DISCORD_TOKEN"))
